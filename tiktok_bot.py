@@ -67,7 +67,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         else:
             await status_msg.edit_text("បរាជ័យក្នុងការ Download។ សូមពិនិត្យ Link របស់អ្នកម្តងទៀត។")
     else:
-        await update.message.reply_text("សូមផ្ញើតែ Link របស់ TikTok ប៉ុណ្ណោះ។")
+        await update.message.reply_text("សួស្តី! ផ្ញើ Link វីដេអូ TikTok មកខ្ញុំ ខ្ញុំនឹង Download ជូនអ្នកភ្លាមៗ! សូមផ្ញើតែ Link មកប៉ុណ្ណោះ!")
 
 # --- ផ្នែកដំណើរការ Bot (Main) ---
 if __name__ == '__main__':
